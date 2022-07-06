@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "jmespath": "^0.16.0",
+    "node-pushover": "^1.0.0",
+    "ring-client-api": "^11.0.4"
+  }
+}
