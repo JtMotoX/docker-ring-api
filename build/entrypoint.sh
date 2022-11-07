@@ -11,7 +11,7 @@ if env | grep -E '^[^=]*=OP:' >/dev/null; then
 fi
 
 # GET LIST OF MODULES
-MODULE_LIST="$(ls *.js | sort | grep -v 'pushover.js')"
+MODULE_LIST="$(ls *.js | sort)"
 if echo "${MODULE_LIST}" | grep -w -q -E "^$1(\.js)?$"; then
 	node $1
 	exit

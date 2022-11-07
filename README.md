@@ -17,6 +17,3 @@ docker-compose run --rm ring_api
 ```bash
 docker-compose run --rm ring_api getLocations
 ```
-
-# Todo:
-- Automatically refresh the Ring token

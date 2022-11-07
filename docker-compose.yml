@@ -1,5 +1,8 @@
 version: "3.4"
 
+volumes:
+  persist:
+
 services:
   ring_api:
     build: ./build
@@ -7,3 +10,4 @@ services:
     volumes:
       - ./build/entrypoint.sh:/entrypoint.sh:ro
       - ./build/app:/app
+      - persist:/persist
