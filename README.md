@@ -8,6 +8,11 @@ Copy the [.env-sample](.env-sample) file to [.env](.env) and set the required va
 docker run --rm -it node:alpine sh -c "npx -y -p ring-client-api ring-auth-cli"
 ```
 
+## Install Node Modules:
+```bash
+docker-compose run --rm ring_api npm install
+```
+
 ## List Available Commands:
 ```bash
 docker-compose run --rm ring_api
